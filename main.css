@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mdl-header {
+  width: 100%;
+  background: linear-gradient(270.04deg, #FFFAE0 0.03%, rgba(240, 255, 246, 0) 99.96%), #FFC0C0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mdl-header .profile-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mdl-header .profile-data div {
+  padding-left: 10px;
+}
+.mdl-header .profile-data div h5 {
+  margin: 0;
+  padding-left: 10px;
+}
+.mdl-header .city-name {
+  background-color: white;
+  padding: 0 10px;
+}
+
+.modal-body {
+  width: 100%;
+  background-color: white;
+}
+.modal-body .modal-card {
+  min-width: 117px;
+  padding: 0;
+  margin: 5px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+.modal-body .modal-card .modal-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px;
+}
+.modal-body .modal-card .modal-detail i {
+  color: #ED8383;
+}
+.modal-body .modal-card input {
+  background: #FFF6EF;
+  border: none;
+  border-radius: 0px 0px 4px 4px;
+  width: 100%;
+  padding: 5px;
+}
+
+.modal-journey-track {
+  width: 100%;
+  background: #F8F8F8;
+  border-radius: 6px 6px 8px 8px;
+  padding: 30px 20px;
+}
+.modal-journey-track .journey-title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.modal-journey-track .journey-title .elaps-time {
+  background-color: white;
+  margin-left: 10px;
+  color: red;
+}
+.modal-journey-track ul {
+  list-style: none;
+}
+.modal-journey-track ul li {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+.modal-journey-track ul li div {
+  margin: 15px 0px 10px 30px;
+}
+.modal-journey-track ul li div .datetime {
+  font-size: small;
+  font-weight: 200;
+}
+.modal-journey-track ul li div i {
+  color: #3762A4;
+}
+.modal-journey-track ul li .check {
+  font-size: 50px;
+  color: #3AB748;
+}
+.modal-journey-track ul li .uncheck {
+  padding: 15px;
+  background-color: white;
+  border-radius: 50%;
+}
+.modal-journey-track ul li .check::after {
+  content: "";
+  background-color: #ccc;
+  height: 70px;
+  width: 2px;
+  display: block;
+  position: absolute;
+  left: 25px;
+}/*# sourceMappingURL=main.css.map */
